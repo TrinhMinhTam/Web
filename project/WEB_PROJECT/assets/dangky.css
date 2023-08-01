@@ -1,0 +1,112 @@
+body, html {
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.2;
+}
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit
+}
+body{
+    margin: 0;
+}
+nav{
+    box-shadow: 0 6px 6px rgb(0 0 0 / 6%);
+}
+.content-form.l-6{
+    display: flex;
+    justify-content: center;
+}
+.app_content{
+    background-color: #5CC1E3;
+    min-height: 37.5rem;
+}
+.auth__form{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+ }
+ .auth__form-container{
+     padding: 0 32px;
+ }
+ .auth__form-header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .auth__form-register{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.auth__form-heading{
+   font-size: 1.8rem;
+   color: #222;
+   margin-top: 10px;
+}
+.auth__form_btn{
+    margin-top: 40px;
+   outline: none;
+   min-height: 40px;
+   padding: 0 0.625rem;
+   border: 0;
+   background: none;
+   border-radius: 0.125rem;
+   width: 100%;
+   cursor: pointer;
+}
+.btn-primary{
+   color: #fff;
+   font-weight: 700;
+   background-color: #5CC1E3;
+   box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+}
+
+.auth__form-input{
+    margin-top: 14px;
+    padding-left: 5px;
+    font-size: 19px;
+    box-sizing: border-box;
+   width: 100%;
+   height: 2.5rem;
+   overflow: hidden;
+   border: 1px solid rgba(0,0,0,.14);
+   border-radius: 2px;
+   box-shadow: inset 0 2px 0 rgb(0 0 0 / 2%);
+}
+.auth__form-or{
+    display: flex;
+    margin-top: 40px;
+}
+.auth__form-or div{
+   height: 1px;
+   width: 100%;
+   background-color: #dbdbdb;
+   flex: 1;
+}
+.auth__form-or span{
+   color: #ccc;
+   padding: 0 1rem;
+   text-transform: uppercase;
+   font-size: .75rem;
+}
+.auth__form-foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.auth__form-foot a{
+   text-decoration: none;
+   color: #5CC1E3;
+}
+.has-error{
+    color: red;
+}
+.auth__form-form{
+    margin-top: 10px;
+}

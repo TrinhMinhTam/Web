@@ -1,0 +1,434 @@
+body{
+	margin:0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+	height: 150px;
+	background-color:aqua;
+	position:relative;
+	border:solid 2px;	
+}
+#login{
+	background-color: blue;
+	position:absolute;
+	right:0px;
+	top:130px;
+	height:22px;
+	margin-right: 30px;
+}
+#login div{
+	color:black;
+	float:left;
+	border:solid 2px;
+}
+#topmenu{
+	border:black solid 3px;
+	
+}
+#topmenu div{
+	display:inline;
+	margin-right: 20px;
+}
+#topmenu a{
+	text-decoration: none;
+}
+#leftmenu{
+	width:20%;
+	max-height: 520%;
+
+	float:left;
+	background-color: bisque;	
+	border: black solid 1px;
+}
+#leftmenu a{
+	text-decoration: none;
+}
+#mid{
+	height: 520%;
+    min-height: 490px;
+}
+#content{
+	width:79%;
+    min-height: 490px;
+	float:right;
+	height: 520%;	
+	background-color:white;
+	border: black solid 1px;
+}
+#content a{
+	text-decoration: none;
+}
+#content th{
+	background-color:#26A69A;
+	color:#004D40;
+}
+#content table, th, td{
+    border:1px solid #868585;
+}
+#content table{
+    border-collapse:collapse;
+}
+#content table tr:nth-child(odd){
+    background-color:#eee;
+}
+#content table tr:nth-child(even){
+    background-color:white;
+}
+#content table tr:nth-child(1){
+    background-color:skyblue;
+}
+#footer{
+	width:100%;
+	background-color:#6666FF;
+	clear:both;
+	line-height:100px;
+	text-align:center;
+	font-size:36px;
+    height:100px;
+}
+#customer td{
+	text-align: center;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.table-mobile{
+    display: none;
+}
+.table-pc{
+    width: 100%;
+}
+@media (max-width:739px) {
+    .table-pc{
+        display: none;
+    }
+    .table-mobile{
+        display: block;
+        width: 100%;
+        background: #fff;
+    }
+    .mobile-option{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+    .sp{
+        align-items: center;
+        display: flex;
+    }
+    .mobile-sp-title{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        line-height: 1.8rem;
+        overflow: hidden;
+        font-size: 1rem;
+    }
+    .mobile-classify span {
+        font-size: 10px;
+        color: #666;
+    }
+    .money-old{
+        text-decoration: line-through;
+        font-size: 10px;
+        color: #666;
+    }
+    .money-current{
+        font-weight: 500;
+    }
+    .cart-btn{
+        padding-bottom: 10px;
+    }
+    .voucher-title{
+        display: flex;
+        align-items: center;
+    }
+    .navbar-logo span{
+        display: block;
+        color: #fff;
+        padding: 0 10px;
+    }
+    .voucher-input{
+        margin: 0;
+    }
+    .cart-voucher-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .row{
+        border-bottom: 1px solid #ccc;
+    }
+    .mobile-voucher{
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .ti-map{
+        color: rgb(238, 103, 13);
+    }
+    .mobile-sale{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .voucher{
+        background: #d05050;
+        color: white;
+        border-radius: 2px;
+        padding: 1px;
+    }
+    .cart-cen div{
+        margin: 0;
+    }
+    .mobile-like{
+        padding: 30px 30px 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .mobile-option span{
+        font-weight: 500;
+    }
+    .like{
+        background: #e86161;
+        color: white;
+        margin: 0 4px;
+    }
+    .cart-cen{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cart-purchase-btn button{
+        width: 9rem;
+    }
+    .app_cart-title-h{
+        font-size: 14px;
+    }
+    .cart-purchase{
+        display: block;
+    }
+    .cart-purchase-btn{
+        text-align: center;
+        margin-top: 19px;
+    }
+    .app_body{
+        background-color: #fff;
+    }
+    header .clearfix{
+        background-color: #000;
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .navbar-logo a{
+        text-decoration: none;
+    }
+    .nav__bars-btn{
+        display: block;
+        right: 0;
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+    }
+    .navbar-logo img{
+        display: block;
+    }
+    .clearfix{
+display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .clearfix{
+        height: 50px;
+        max-height: 60px;
+    }
+    .navbar-m{
+        background-color: #666;
+    }
+    .navigation a{
+        display: none;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
+@media (min-width: 740px) and (max-width:1023px) {
+    .app{
+        background-color: #fff;
+    }
+    .table-pc{
+        display: none;
+    }
+    .table-mobile{
+        display: block;
+        width: 100%;
+        background: #fff;
+    }
+    .mobile-option{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+    .sp{
+        align-items: center;
+        display: flex;
+    }
+    .mobile-sp-title{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        line-height: 1.8rem;
+        overflow: hidden;
+        font-size: 1rem;
+    }
+    .mobile-classify span {
+        font-size: 10px;
+        color: #666;
+    }
+    .money-old{
+        text-decoration: line-through;
+        font-size: 10px;
+        color: #666;
+    }
+    .money-current{
+        font-weight: 500;
+    }
+    .cart-btn{
+        padding-bottom: 10px;
+    }
+    .voucher-title{
+        display: flex;
+        align-items: center;
+    }
+    .navbar-logo span{
+        display: block;
+        color: #fff;
+        padding: 0 10px;
+    }
+    .voucher-input{
+        margin: 0;
+    }
+    .cart-voucher-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .row{
+        border-bottom: 1px solid #ccc;
+    }
+    .mobile-voucher{
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .ti-map{
+        color: rgb(238, 103, 13);
+    }
+    .mobile-sale{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .voucher{
+        background: #d05050;
+        color: white;
+        border-radius: 2px;
+        padding: 1px;
+    }
+    .cart-cen div{
+        margin: 0;
+    }
+    .mobile-like{
+        padding: 30px 30px 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .mobile-option span{
+        font-weight: 500;
+    }
+    .like{
+        background: #e86161;
+        color: white;
+        margin: 0 4px;
+    }
+    .cart-cen{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cart-purchase-btn button{
+        width: 9rem;
+    }
+    .app_cart-title-h{
+        font-size: 14px;
+    }
+    .cart-purchase{
+        display: block;
+    }
+    .cart-purchase-btn{
+        text-align: center;
+        margin-top: 19px;
+    }
+    .app_body{
+        background-color: #fff;
+    }
+    header .clearfix{
+        background-color: #000;
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+justify-content: space-between;
+        width: 100%;
+    }
+    .navbar-logo a{
+        text-decoration: none;
+    }
+    .nav__bars-btn{
+        display: block;
+        right: 0;
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+    }
+    .navbar-logo img{
+        display: block;
+    }
+    .clearfix{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .clearfix{
+        height: 50px;
+        max-height: 60px;
+    }
+    .navbar-m{
+        background-color: #666;
+    }
+    .navigation a{
+        display: none;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+}
